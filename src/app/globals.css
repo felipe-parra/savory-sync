@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.food__card__container {
+  @apply border-4 border-teal-400;
+  @apply rounded-lg shadow-lg;
+  @apply flex flex-col items-center justify-center w-full h-full p-4;
+}
+
+.food__card__title {
+  @apply text-2xl font-bold;
+}
+
+.food__card__image {
+  @apply w-64 h-full;
+  @apply rounded-lg;
+}
